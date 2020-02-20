@@ -1,5 +1,5 @@
 {
-  "name": "mqtt-react-demo",
+  "name": "camplug",
   "version": "0.1.0",
   "devDependencies": {
     "react-scripts": "0.9.5"
@@ -7,7 +7,11 @@
   "dependencies": {
     "mqtt-react": "0.0.2",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "mqtt": "2.18.8",
+    "minimist": "1.2.0",
+    "websocket-stream": "^5.0.1",
+    "crypto-js": "3.1.6"
   },
   "scripts": {
     "start": "react-scripts start",

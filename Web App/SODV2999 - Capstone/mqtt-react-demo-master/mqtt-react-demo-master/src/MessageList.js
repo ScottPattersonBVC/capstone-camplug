@@ -5,7 +5,7 @@ export default ({data}) => {
   console.log(data);
   return (
     <div>
-      <h3>Messages</h3>
+      <h3>camplug/1</h3>
       <ul>
         {dataList}
       </ul>

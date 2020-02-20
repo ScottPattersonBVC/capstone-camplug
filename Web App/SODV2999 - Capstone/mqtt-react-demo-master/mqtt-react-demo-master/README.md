@@ -1,12 +1,12 @@
 ## Documentation
 Subscribe in Terminal
 ```
-mqtt sub -t '@near/demo' -h test.mosca.io
+mqtt sub -t 'camplug/1' -h a3ieilx72a5bln-ats.iot.us-west-1.amazonaws.com
 ```
 
 Publish in Terminal
 ```
-mqtt pub -t '@near/demo' -h test.mosca.io -m 'from commandline'
+mqtt pub -t 'camplug/1' -h a3ieilx72a5bln-ats.iot.us-west-1.amazonaws.com -m 'from commandline'
 ```
 
 ## Bootstrapped

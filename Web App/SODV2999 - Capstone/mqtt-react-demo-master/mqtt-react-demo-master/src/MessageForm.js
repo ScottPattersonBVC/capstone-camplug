@@ -15,10 +15,10 @@ export default class MessageForm extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          Message
+          text
         </label>
         <input type="text" ref={(input) => this.input = input} />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Enter" />
       </form>
     );
   }
